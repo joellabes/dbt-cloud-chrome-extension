@@ -12,10 +12,10 @@ Enable developer mode at chrome://extensions and load an unpacked extension, as 
 
 Click into a run's details page and fill out the alias box. Delete the text to clear.
 
-[!](readme-assets/create_alias.png)
+![Screenshot of the alias creation box](readme-assets/create_alias.png)
 
 ### Viewing an alias
 
-Any page that shows a list of runs will display the alias and highlight the background row .
+Any page that shows a list of runs will display the alias and highlight the background row.
 
-[!](readme-assets/create_alias.png)
+![Screenshot showing some rows highlighted with comments and some without](readme-assets/job_list.png)
