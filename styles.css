@@ -1,0 +1,30 @@
+/* Styles for run-alias-display spans */
+.run-alias-display {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 2px 6px;
+    font-size: 0.9em;
+    color: #333;
+    background-color: #e1f5fe;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Style for highlighted rows with aliases */
+li[style*="background-color: #f0f0f0"] {
+    transition: background-color 0.3s ease;
+}
+
+/* Enhancements for input fields (used in the individual run details page) */
+.run-alias-input {
+    margin-top: 4px;
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.run-alias-input:focus {
+    border-color: #1976d2;
+    outline: none;
+}

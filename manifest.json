@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "dbt Job Alias",
+    "version": "1.0",
+    "permissions": ["storage"],
+    "content_scripts": [
+      {
+        "matches": [
+          "https://*.getdbt.com/deploy/*",
+          "https://*.dbt.com/deploy/*"
+        ],
+        "js": ["contentScript.js"],
+        "css": ["styles.css"]
+      }
+    ],
+    "icons": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  }
+  
